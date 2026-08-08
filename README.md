@@ -60,7 +60,9 @@ The model addresses a class imbalance of 85% non-churn and 15% churn. This imbal
    pip install -r requirements.txt
    ```
 
-3. Run the notebooks in order:
+3. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets) and place the CSV files in a `raw` folder inside the `data` directory.
+
+4. Run the notebooks in order:
    - `01_eda.ipynb` for exploratory data analysis
    - `02_feature_engineering.ipynb` for feature engineering
    - `03_modeling.ipynb` for model training and evaluation
